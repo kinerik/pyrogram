@@ -5,22 +5,28 @@ Pyrogram |twitter|
 
 .. code-block:: python
 
+    import asyncio
+
     from pyrogram import Client, Filters
 
     app = Client("my_account")
 
 
     @app.on_message(Filters.private)
-    def hello(client, message):
-        client.send_message(
-            message.chat.id, "Hello {}".format(message.from_user.first_name))
+    async def hello(client, message):
+        await message.reply_text(
+            "Hello {}".format(message.from_user.first_name))
 
 
-    app.start()
-    app.idle()
+    async def main():
+        await app.start()
+        await app.idle()
 
-**Pyrogram** is a brand new Telegram_ Client Library written from the ground up in Python and C. It can be used for building
-custom Telegram applications that interact with the MTProto API as both User and Bot.
+
+    asyncio.get_event_loop().run_until_complete(main())
+
+**Pyrogram** is a brand new, fully asynchronous Telegram_ Client Library written from the ground up in Python and C.
+It can be used for building custom Telegram applications that interact with the MTProto API as both User and Bot.
 
 Features
 --------
@@ -28,14 +34,15 @@ Features
 -   **Easy to use**: You can easily install Pyrogram using pip and start building your app right away.
 -   **High-level**: The low-level details of MTProto are abstracted and automatically handled.
 -   **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
--   **Updated** to the latest Telegram API version, currently Layer 76 running on MTProto 2.0.
+-   **Fully asynchronous**: Pyrogram delivers extra performance while using a single thread only.
+-   **Updated** to the latest Telegram API version, currently Layer 79 running on MTProto 2.0.
 -   **Documented**: Pyrogram API methods are documented and resemble the Telegram Bot API.
 -   **Full API**, allowing to execute any advanced action an official client is able to do, and more.
 
 Requirements
 ------------
 
--   Python 3.4 or higher.
+-   Python 3.5 or higher.
 -   A `Telegram API key`_.
 
 Installing
@@ -103,7 +110,7 @@ Copyright & License
         <br><br>
         <a href="compiler/api/source/main_api.tl">
             <img src="https://media.pyrogram.ml/images/scheme.svg"
-                alt="Scheme Layer 76">
+                alt="Scheme Layer">
         </a>
         <a href="https://github.com/pyrogram/tgcrypto">
             <img src="https://media.pyrogram.ml/images/tgcrypto.svg"
@@ -122,7 +129,7 @@ Copyright & License
 
 .. |scheme| image:: https://www.pyrogram.ml/images/scheme.svg
     :target: compiler/api/source/main_api.tl
-    :alt: Scheme Layer 76
+    :alt: Scheme Layer
 
 .. |tgcrypto| image:: https://www.pyrogram.ml/images/tgcrypto.svg
     :target: https://github.com/pyrogram/tgcrypto
