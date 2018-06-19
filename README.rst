@@ -25,6 +25,8 @@ Pyrogram |twitter|
 
     asyncio.get_event_loop().run_until_complete(main())
 
+.. test
+
 .. image:: https://media.pyrogram.ml/images/icon.png
    :align: right
    
