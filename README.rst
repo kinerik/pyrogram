@@ -5,25 +5,17 @@ Pyrogram |twitter|
 
 .. code-block:: python
 
-    import asyncio
-
     from pyrogram import Client, Filters
-
+    
     app = Client("my_account")
-
-
+    
     @app.on_message(Filters.private)
     async def hello(client, message):
         await message.reply_text(
             "Hello {}".format(message.from_user.first_name))
 
 
-    async def main():
-        await app.start()
-        await app.idle()
-
-
-    asyncio.get_event_loop().run_until_complete(main())
+    app.run()
    
 **Pyrogram** is a brand new, fully asynchronous Telegram_ Client Library written from the ground up in Python and C.
 It can be used for building custom Telegram applications that interact with the MTProto API as both User and Bot.
