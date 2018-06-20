@@ -26,7 +26,7 @@ Features
 -   **Easy to use**: You can easily install Pyrogram using pip and start building your app right away.
 -   **High-level**: The low-level details of MTProto are abstracted and automatically handled.
 -   **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
--   **Fully asynchronous**: Pyrogram delivers extra performance while using a single thread only.
+-   **Fully asynchronous**: Pyrogram delivers extra performance while using one OS-level thread only.
 -   **Updated** to the latest Telegram API version, currently Layer 79 running on MTProto 2.0.
 -   **Documented**: Pyrogram API methods are documented and resemble the Telegram Bot API.
 -   **Full API**, allowing to execute any advanced action an official client is able to do, and more.
