@@ -1,7 +1,5 @@
 |header|
 
-    Full Asynchronous Telegram MTProto API Client Library for Python
-
 Pyrogram
 ========
     
@@ -79,6 +77,10 @@ and documentation. Any help is appreciated!
     </h1>
     
      <p align="center">
+        Full Asynchronous Telegram MTProto API Client Library for Python
+        
+        <br>
+        
         <a href="https://github.com/pyrogram/pyrogram/releases/latest">
             Download
         </a>
@@ -94,7 +96,7 @@ and documentation. Any help is appreciated!
         <br>
         
         <a href="compiler/api/source/main_api.tl">
-            <img src="https://img.shields.io/badge/SCHEME-LAYER%2079-eda738.svg?longCache=true&"
+            <img src="https://img.shields.io/badge/SCHEME-LAYER%2079-eda738.svg?longCache=true&style=flat&colorA=262b30"
                 alt="Scheme Layer">
         </a>
         <a href="https://github.com/pyrogram/tgcrypto">
