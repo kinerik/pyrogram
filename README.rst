@@ -74,6 +74,20 @@ and documentation. Any help is appreciated!
     </h1>
     
      <p align="center">
+        <a href="https://github.com/pyrogram/pyrogram/releases/latest">
+            Download
+        </a>
+        •
+        <a href="https://docs.pyrogram.ml">
+            Documentation
+        </a>
+        •
+        <a href="https://t.me/PyrogramChat">
+            Community
+        </a>
+        
+        <br>
+        
         <a href="compiler/api/source/main_api.tl">
             <img src="https://img.shields.io/badge/SCHEME-LAYER%2079-eda738.svg?longCache=true&style=flat&colorA=262b30"
                 alt="Scheme">
@@ -83,6 +97,8 @@ and documentation. Any help is appreciated!
                 alt="TgCrypto">
         </a>
     </p>
+    
+    <blockquote>Full Asynchronous Telegram MTProto API Client Library for Python</blockquote>
 
 
 .. |logo| image:: https://pyrogram.ml/images/logo.png
