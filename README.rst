@@ -1,5 +1,5 @@
 |header|
-    
+
 .. code-block:: python
 
     from pyrogram import Client, Filters
@@ -74,6 +74,10 @@ and documentation. Any help is appreciated!
     </h1>
     
      <p align="center">
+        <b>Full Asynchronous Telegram MTProto API Client Library for Python</b>
+        
+        <br>
+     
         <a href="https://github.com/pyrogram/pyrogram/releases/latest">
             Download
         </a>
@@ -97,8 +101,6 @@ and documentation. Any help is appreciated!
                 alt="TgCrypto">
         </a>
     </p>
-    
-    <blockquote>Full Asynchronous Telegram MTProto API Client Library for Python</blockquote>
 
 
 .. |logo| image:: https://pyrogram.ml/images/logo.png
