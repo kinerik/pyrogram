@@ -3,7 +3,7 @@
 Pyrogram
 ========
     
-    **Fully Asynchronous Telegram MTProto API Client Library for Python**
+    **🔥 Fully Asynchronous Telegram MTProto API Client Library for Python**
     
 .. code-block:: python
 
