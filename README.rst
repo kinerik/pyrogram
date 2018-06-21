@@ -1,8 +1,10 @@
 |header|
 
-Pyrogram |twitter|
-==================
-
+Pyrogram
+========
+    
+    **Fully Asynchronous Telegram MTProto API Client Library for Python**
+    
 .. code-block:: python
 
     from pyrogram import Client, Filters
@@ -17,7 +19,7 @@ Pyrogram |twitter|
 
     app.run()
    
-🔥 **Pyrogram** is a brand new, fully asynchronous Telegram_ Client Library written from the ground up in Python and C.
+**Pyrogram** is a brand new, fully asynchronous Telegram_ Client Library written from the ground up in Python and C.
 It can be used for building custom Telegram applications that interact with the MTProto API as both User and Bot.
 
 Features
@@ -26,7 +28,7 @@ Features
 -   📦 **Easy to use**: You can easily install Pyrogram using pip and start building your app right away.
 -   🚀 **High-level**: The low-level details of MTProto are abstracted and automatically handled.
 -   ⚡️ **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
--   ⏱ **Fully asynchronous**: Pyrogram delivers extra performance while using one OS-level thread only.
+-   ⏱ **Asynchronous**: Pyrogram delivers extra performance while using one OS-level thread only.
 -   🔄 **Updated** to the latest Telegram API version, currently Layer 79 running on MTProto 2.0.
 -   📖 **Documented**: Pyrogram API methods are documented and resemble the Telegram Bot API.
 -   💯 **Full API**, allowing to execute any advanced action an official client is able to do, and more.
@@ -55,15 +57,9 @@ Getting Started
 Contributing
 ------------
 
-Pyrogram is brand new! **You are welcome to try it and help make it better** by either submitting pull
+Pyrogram is brand new, and **you are welcome to try it and help make it even better** by either submitting pull
 requests or reporting issues/bugs as well as suggesting best practices, ideas, enhancements on both code
 and documentation. Any help is appreciated!
-
-Copyright & License
--------------------
-
--   Copyright (C) 2017-2018 Dan Tès <https://github.com/delivrance>
--   Licensed under the terms of the `GNU Lesser General Public License v3 or later (LGPLv3+)`_
 
 .. _`Telegram`: https://telegram.org/
 .. _`Telegram API key`: https://docs.pyrogram.ml/start/ProjectSetup#api-keys
@@ -73,7 +69,6 @@ Copyright & License
 .. _`Email`: admin@pyrogram.ml
 .. _`Message`: https://t.me/haskell
 .. _TgCrypto: https://github.com/pyrogram/tgcrypto
-.. _`GNU Lesser General Public License v3 or later (LGPLv3+)`: COPYING.lesser
 
 .. |header| raw:: html
 
@@ -109,9 +104,6 @@ Copyright & License
                 alt="TgCrypto">
         </a>
     </p>
-
-.. |twitter| image:: https://media.pyrogram.ml/images/twitter.svg
-    :target: https://twitter.com/intent/tweet?text=Build%20custom%20Telegram%20applications%20with%20Pyrogram&url=https://github.com/pyrogram/pyrogram&hashtags=Telegram,MTProto,Python
 
 .. |logo| image:: https://pyrogram.ml/images/logo.png
     :target: https://pyrogram.ml
