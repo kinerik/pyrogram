@@ -77,7 +77,7 @@ and documentation. Any help is appreciated!
     </h1>
     
      <p align="center">
-        Full Asynchronous Telegram MTProto API Client Library for Python
+        <b>Full Asynchronous Telegram MTProto API Client Library for Python</b>
         
         <br>
         
