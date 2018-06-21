@@ -1,7 +1,6 @@
 |header|
 
-Pyrogram
-========
+    Full Asynchronous Telegram MTProto API Client Library for Python
     
 .. code-block:: python
 
@@ -72,36 +71,9 @@ and documentation. Any help is appreciated!
 
     <h1 align="center">
         <a href="https://github.com/pyrogram/pyrogram">
-            <div><img src="https://media.pyrogram.ml/images/icon.png" alt="Pyrogram Icon"></div>
-            <div><img src="https://media.pyrogram.ml/images/label.png" alt="Pyrogram Label"></div>
+            <div><img src="https://media.pyrogram.ml/images/logo2.png" alt="Pyrogram Icon"></div>
         </a>
     </h1>
-
-    <p align="center">
-        <b>Telegram MTProto API Client Library for Python</b>
-        
-        <br>
-        <a href="https://github.com/pyrogram/pyrogram/releases/latest">
-            Download
-        </a>
-        •
-        <a href="https://docs.pyrogram.ml">
-            Documentation
-        </a>
-        •
-        <a href="https://t.me/PyrogramChat">
-            Community
-        </a>
-        <br><br>
-        <a href="compiler/api/source/main_api.tl">
-            <img src="https://media.pyrogram.ml/images/scheme.svg"
-                alt="Scheme Layer">
-        </a>
-        <a href="https://github.com/pyrogram/tgcrypto">
-            <img src="https://media.pyrogram.ml/images/tgcrypto.svg"
-                alt="TgCrypto">
-        </a>
-    </p>
 
 .. |logo| image:: https://pyrogram.ml/images/logo.png
     :target: https://pyrogram.ml
