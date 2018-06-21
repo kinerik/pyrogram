@@ -80,6 +80,10 @@ and documentation. Any help is appreciated!
     </h1>
 
     <p align="center">
+        <b>Fully Asynchronous Telegram MTProto API Client Library for Python</b>
+        
+        <br>
+        
         <a href="https://github.com/pyrogram/pyrogram/releases/latest">
             Download
         </a>
