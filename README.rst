@@ -94,11 +94,11 @@ and documentation. Any help is appreciated!
         </a>
         <br><br>
         <a href="compiler/api/source/main_api.tl">
-            <img src="https://media.pyrogram.ml/images/scheme.svg"
+            <img src="https://img.shields.io/badge/SCHEME-LAYER%2079-eda738.svg?longCache=true&style=flat&colorA=262b30"
                 alt="Scheme Layer">
         </a>
         <a href="https://github.com/pyrogram/tgcrypto">
-            <img src="https://media.pyrogram.ml/images/tgcrypto.svg"
+            <img src="https://img.shields.io/badge/TGCRYPTO-V1.0.4-eda738.svg?longCache=true&style=flat&colorA=262b30"
                 alt="TgCrypto">
         </a>
     </p>
