@@ -78,7 +78,7 @@ and documentation. Any help is appreciated!
     </h1>
 
     <p align="center">
-        <b>🔥 Fully Asynchronous Telegram MTProto API Client Library for Python</b>
+        <b>Fully Asynchronous Telegram MTProto API Client Library for Python</b>
         
         <br>
         
@@ -94,7 +94,7 @@ and documentation. Any help is appreciated!
             Community
         </a>
         
-        <br>
+        <br><br>
         
         <a href="compiler/api/source/main_api.tl">
             <img src="https://img.shields.io/badge/SCHEME-LAYER%2079-eda738.svg?longCache=true&style=flat&colorA=262b30"
