@@ -72,15 +72,14 @@ and documentation. Any help is appreciated!
 
 .. |header| raw:: html
 
-    <p align="center">
+    <h1 align="center">
         <a href="https://github.com/pyrogram/pyrogram">
             <div><img src="https://media.pyrogram.ml/images/icon.png" alt="Pyrogram Icon"></div>
             <div><img src="https://media.pyrogram.ml/images/label.png" alt="Pyrogram Label"></div>
         </a>
-    </p>
+    </h1>
 
     <p align="center">
-        <br>
         <a href="https://github.com/pyrogram/pyrogram/releases/latest">
             Download
         </a>
