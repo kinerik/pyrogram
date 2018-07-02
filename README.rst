@@ -71,8 +71,7 @@ and documentation. Any help is appreciated!
 
     <h1 align="center">
         <a href="https://github.com/pyrogram/pyrogram">
-            <div><img src="https://media.pyrogram.ml/images/icon.png" alt="Pyrogram Icon"></div>
-            <div><img src="https://media.pyrogram.ml/images/label.png" alt="Pyrogram Label"></div>
+            <div><img src="https://media.pyrogram.ml/images/logo2.png" alt="Pyrogram"></div>
         </a>
     </h1>
     
