@@ -26,7 +26,7 @@ Features
 -   🚀 **High-level**: The low-level details of MTProto are abstracted and automatically handled.
 -   ⚡️ **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
 -   ⏱ **Asynchronous**: Pyrogram delivers extra performance while running on one OS-level thread only.
--   🔄 **Updated** to the latest Telegram API version, currently Layer 79 on top of MTProto 2.0.
+-   🔄 **Updated** to the latest Telegram API version, currently Layer 82 on top of MTProto 2.0.
 -   📖 **Documented**: Pyrogram API methods are documented and resemble the Telegram Bot API.
 -   💯 **Full API**, allowing to execute any advanced action an official client is able to do, and more.
 
@@ -96,7 +96,7 @@ and documentation. Any help is appreciated!
         <br><br>
         
         <a href="compiler/api/source/main_api.tl">
-            <img src="https://img.shields.io/badge/SCHEME-LAYER%2081-eda738.svg?longCache=true&style=for-the-badge&colorA=262b30"
+            <img src="https://img.shields.io/badge/SCHEME-LAYER%2082-eda738.svg?longCache=true&style=for-the-badge&colorA=262b30"
                 alt="Scheme">
         </a>
         <a href="https://github.com/pyrogram/tgcrypto">
