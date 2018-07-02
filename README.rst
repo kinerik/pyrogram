@@ -16,8 +16,8 @@ Pyrogram
 
     app.run()
    
-**Pyrogram** is a brand new, fully asynchronous Telegram_ Client Library written from the ground up in Python and C.
-It can be used for building custom Telegram applications that interact with the MTProto API as both User and Bot.
+Pyrogram_ is a **fast**, **fully asynchronous** Telegram Client Library written from the ground up in Python and C.
+It can be used for building custom applications that interact with Telegram MTProto API as both User and Bot.
 
 Features
 --------
@@ -58,7 +58,7 @@ Pyrogram is brand new, and **you are welcome to try it and help make it even bet
 requests or reporting issues/bugs as well as suggesting best practices, ideas, enhancements on both code
 and documentation. Any help is appreciated!
 
-.. _`Telegram`: https://telegram.org/
+.. _`Pyrogram`: https://docs.pyrogram.ml 
 .. _`Telegram API key`: https://docs.pyrogram.ml/start/ProjectSetup#api-keys
 .. _`Community`: https://t.me/PyrogramChat
 .. _`Examples`: https://github.com/pyrogram/pyrogram/tree/master/examples
@@ -96,7 +96,7 @@ and documentation. Any help is appreciated!
         <br><br>
         
         <a href="compiler/api/source/main_api.tl">
-            <img src="https://img.shields.io/badge/SCHEME-LAYER%2079-eda738.svg?longCache=true&style=for-the-badge&colorA=262b30"
+            <img src="https://img.shields.io/badge/SCHEME-LAYER%2081-eda738.svg?longCache=true&style=for-the-badge&colorA=262b30"
                 alt="Scheme">
         </a>
         <a href="https://github.com/pyrogram/tgcrypto">
@@ -112,10 +112,10 @@ and documentation. Any help is appreciated!
 
 .. |description| replace:: **Telegram MTProto API Client Library for Python**
 
-.. |scheme| image:: https://www.pyrogram.ml/images/scheme.svg
+.. |scheme| image:: "https://img.shields.io/badge/SCHEME-LAYER%2081-eda738.svg?longCache=true&style=for-the-badge&colorA=262b30"
     :target: compiler/api/source/main_api.tl
     :alt: Scheme Layer
 
-.. |tgcrypto| image:: https://www.pyrogram.ml/images/tgcrypto.svg
+.. |tgcrypto| image:: "https://img.shields.io/badge/TGCRYPTO-V1.0.4-eda738.svg?longCache=true&style=for-the-badge&colorA=262b30"
     :target: https://github.com/pyrogram/tgcrypto
     :alt: TgCrypto
