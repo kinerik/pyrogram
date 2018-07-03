@@ -1,5 +1,8 @@
 |header|
 
+Pyrogram
+========
+
 .. code-block:: python
 
     from pyrogram import Client, Filters
