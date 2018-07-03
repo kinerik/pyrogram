@@ -22,19 +22,19 @@ It can be used for building custom applications that interact with the Telegram 
 Features
 --------
 
--   **Easy to use**: You can easily install Pyrogram using pip and start building your app right away.
--   **High-level**: The low-level details of MTProto are abstracted and automatically handled.
--   **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
--   **Asynchronous**: Pyrogram delivers extra performance while running on one OS-level thread only.
--   **Updated** to the latest Telegram API version, currently Layer 82 on top of MTProto 2.0.
--   **Documented**: Pyrogram public API is well documented and resemble the Telegram Bot API.
--   **Full API**, allowing to execute any advanced action an official client is able to do, and more.
+-   📦 **Easy to use**: You can easily install Pyrogram using pip and start building your app right away.
+-   🚀 **High-level**: The low-level details of MTProto are abstracted and automatically handled.
+-   ⚡️ **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
+-   ⏱ **Asynchronous**: Pyrogram delivers extra performance while running on one OS-level thread only.
+-   🔄 **Updated** to the latest Telegram API version, currently Layer 82 on top of MTProto 2.0.
+-   📖 **Documented**: Pyrogram public API is well documented and resemble the Telegram Bot API.
+-   💯 **Full API**, allowing to execute any advanced action an official client is able to do, and more.
 
 Requirements
 ------------
 
--   Python 3.5 or higher.
--   A `Telegram API key`_.
+-   🐍 Python 3.5 or higher.
+-   🔑 A `Telegram API key`_.
 
 Installing
 ----------
@@ -46,10 +46,10 @@ Installing
 Getting Started
 ---------------
 
--   The Docs contain lots of resources to help you getting started with Pyrogram: https://docs.pyrogram.ml.
--   Reading Examples_ in this repository is also a good way for learning how things work.
--   Seeking extra help? Don't be shy, come join and ask our Community_!
--   For other requests you can send an Email_ or a Message_.
+-   📖 The Docs contain lots of resources to help you getting started with Pyrogram: https://docs.pyrogram.ml.
+-   💡 Reading Examples_ in this repository is also a good way for learning how things work.
+-   ❓ Seeking extra help? Don't be shy, come join and ask our Community_!
+-   ✉️ For other requests you can send an Email_ or a Message_.
 
 Contributing
 ------------
