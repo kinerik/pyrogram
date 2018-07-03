@@ -11,15 +11,13 @@ Pyrogram
     
     @app.on_message(Filters.private)
     async def hello(client, message):
-        await message.reply(
-            "Hello {}".format(
-                message.from_user.first_name))
+        await message.reply("Hello {}".format(message.from_user.first_name))
 
 
     app.run()
    
 Pyrogram_ is a **fast**, **fully asynchronous** Telegram Client Library written from the ground up in Python and C.
-It can be used for building custom applications that interact with Telegram MTProto API as both User and Bot.
+It can be used for building custom applications that interact with the Telegram MTProto API as both User and Bot.
 
 Features
 --------
@@ -29,7 +27,7 @@ Features
 -   ⚡️ **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
 -   ⏱ **Asynchronous**: Pyrogram delivers extra performance while running on one OS-level thread only.
 -   🔄 **Updated** to the latest Telegram API version, currently Layer 82 on top of MTProto 2.0.
--   📖 **Documented**: Pyrogram API methods are documented and resemble the Telegram Bot API.
+-   📖 **Documented**: Pyrogram public API is well documented and resemble the Telegram Bot API.
 -   💯 **Full API**, allowing to execute any advanced action an official client is able to do, and more.
 
 Requirements
@@ -56,7 +54,7 @@ Getting Started
 Contributing
 ------------
 
-Pyrogram is brand new, and **you are welcome to try it and help make it even better** by either submitting pull
+If you like Pyrogram, **you are welcome to help make it even better** by either submitting pull
 requests or reporting issues/bugs as well as suggesting best practices, ideas, enhancements on both code
 and documentation. Any help is appreciated!
 
