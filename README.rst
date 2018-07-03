@@ -58,7 +58,7 @@ Pyrogram is brand new, and **you are welcome to try it and help make it even bet
 requests or reporting issues/bugs as well as suggesting best practices, ideas, enhancements on both code
 and documentation. Any help is appreciated!
 
-.. _`Pyrogram`: https://docs.pyrogram.ml 
+.. _`Pyrogram`: https://pyrogram.ml 
 .. _`Telegram API key`: https://docs.pyrogram.ml/start/ProjectSetup#api-keys
 .. _`Community`: https://t.me/PyrogramChat
 .. _`Examples`: https://github.com/pyrogram/pyrogram/tree/master/examples
